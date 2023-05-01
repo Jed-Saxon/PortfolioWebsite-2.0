@@ -1,16 +1,63 @@
+.text-sm-center {
+    text-align: center !important;
+}
+
+.mb-sm-5 {
+    margin-bottom: 5rem;
+}
+
+.col-sm > .btn {
+    width: 100%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .text-sm-center {
+        text-align: center !important;
+    }
+
+    .mb-sm-5 {
+        margin-bottom: 5rem;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .text-sm-center {
+        text-align: center !important;
+    }
+
+    .mb-sm-5 {
+        margin-bottom: 5rem;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .text-sm-center {
+        text-align: center !important;
+    }
+
+    .mb-sm-5 {
+        margin-bottom: 5rem;
+    }
+}
+
 * {
     font-family: 'Fira Sans', 'sans-serif' !important;
 }
 
-div.introduction-thing {
-    background: rgb(229, 229, 229) !important;
-    box-shadow: 0rem 1rem 2rem rgb(195, 193, 193) !important;
+h1 {
+    font-size: 5rem;
 }
 
-h1.main {
-    font-size: 3rem;
+p.sub {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: rgb(75, 77, 127);
 }
 
-em {
-    color: rgb(109, 207, 135);
+body {
+    background-color: rgb(18, 19, 42);
+    color: whitesmoke;
 }
