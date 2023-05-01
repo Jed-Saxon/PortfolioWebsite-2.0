@@ -1,0 +1,16 @@
+* {
+    font-family: 'Fira Sans', 'sans-serif' !important;
+}
+
+div.introduction-thing {
+    background: rgb(229, 229, 229) !important;
+    box-shadow: 0rem 1rem 2rem rgb(195, 193, 193) !important;
+}
+
+h1.main {
+    font-size: 3rem;
+}
+
+em {
+    color: rgb(109, 207, 135);
+}
