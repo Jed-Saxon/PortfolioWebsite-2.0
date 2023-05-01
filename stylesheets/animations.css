@@ -1,4 +1,4 @@
-@keyframes fadeIn {
+@keyframes div-fadeIn {
     from {
         opacity: 0;
         transform: translateY(5rem);
@@ -9,10 +9,30 @@
     }
 }
 
+@keyframes bg-fadeIn {
+    from {
+        color: none;
+    }
+    to {
+        background-color: rgb(75, 78, 164);
+    }
+}
+
 .fade-in.fade-in-anim {
-    animation: fadeIn 1s ease-in-out forwards;
+    animation: div-fadeIn 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
 }
 
 .fade-in {
     opacity: 0;
+}
+
+.bg-blue {
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.bg-blue:hover {
+    background-color: rgb(75, 78, 164);
+    box-shadow: rgb(56, 42, 107) 0 0 2rem; 
+    color: whitesmoke;
+    transform: scale(1.1);
 }

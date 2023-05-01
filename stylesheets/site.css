@@ -1,54 +1,17 @@
-.text-sm-center {
-    text-align: center !important;
-}
-
-.mb-sm-5 {
-    margin-bottom: 5rem;
-}
-
-.col-sm > .btn {
-    width: 100%;
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .text-sm-center {
-        text-align: center !important;
-    }
-
-    .mb-sm-5 {
-        margin-bottom: 5rem;
-    }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .text-sm-center {
-        text-align: center !important;
-    }
-
-    .mb-sm-5 {
-        margin-bottom: 5rem;
-    }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .text-sm-center {
-        text-align: center !important;
-    }
-
-    .mb-sm-5 {
-        margin-bottom: 5rem;
-    }
-}
-
 * {
     font-family: 'Fira Sans', 'sans-serif' !important;
 }
 
 h1 {
     font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p, li {
+    font-size: 1.5rem;
 }
 
 p.sub {
@@ -60,4 +23,35 @@ p.sub {
 body {
     background-color: rgb(18, 19, 42);
     color: whitesmoke;
+}
+
+.btn.btn-outline-secondary {
+    border-color: rgb(75, 78, 164);
+    color: rgb(75, 78, 164);
+}
+
+.btn.btn-outline-secondary:hover {
+    background-color: rgb(75, 78, 164) !important;
+    color: whitesmoke;
+}
+
+.btn.btn-outline-secondary:active {
+    background-color: rgb(101, 105, 211) !important;
+    color: whitesmoke;
+}
+
+.navbar.blur {
+    backdrop-filter: blur(1rem);
+    background-color: rgba(75, 75, 127, 0.1);
+}
+
+.bg-blue {
+    border: rgb(75, 78, 164) .15rem solid;
+    border-radius: 1rem;
+    color: rgb(75, 78, 164);
+}
+
+.modal-content {
+    background-color: rgb(18, 19, 42) !important;
+    border: rgb(75, 78, 164) .15rem solid !important;
 }
