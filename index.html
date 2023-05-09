@@ -32,8 +32,8 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#my-portfolio" tabindex="-1" aria-disabled="true">My Portfolio</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact-me">Contact Me</a>
+					<li class="nav-item d-flex nav-link">
+						<a class="btn btn-warning" href="#contact-me">Contact Me</a>
                 	</li>
               	</ul>
             </div>
@@ -44,6 +44,7 @@
         <div class="mb-sm-5 text-lg-center" style="margin-bottom: 10rem !important">
             <h1 id="title">Jed Saxon</h1>
             <p class="sub">Software/Web Developer</p>
+			<a class="btn btn-outline-warning" href="#contact-me">Contact Me</a>
         </div>
 		<!-- <div class="mb-sm-5">
 			<div class="bg-danger-subtle text-danger p-2 rounded-2">
@@ -53,13 +54,13 @@
 		<div class="mb-sm-5" id="about">
 			<h2>Who am I?</h2>
 			<p>I am someone who always thought 'how does that work?' How does Google magically index millions of websites every day? Why does that game look so good? <b>This is what originally inspired me to become a programmer.</b></p>
-			<p>I decided to drop out of Year 11 VCE and persue more worthwhile education. I completed the <b>Certificate IV of IT at Chisholm</b> and moved onto the <b>Diploma of IT in Swinburne</b> which is what I'm studying now.</p>
-			<p>During my time away from high school, I went on to learn <b>ASP.NET</b> and have made <b>serveral small-scale APIs and websites</b> which you can find bellow. I ultimately ended up really enjoying backend development, and picked up frontend web development along the way</p>
+			<p>To start my career, decided to go to TAFE and complete the <b>Certificate IV of IT at Chisholm</b> and then the <b>Diploma of IT in Swinburne</b> which is what I'm studying now. However, I would love to get a job as a web / software developer instead of completing the Diploma as I'd get more valuable experience from doing that</p>
+			<p>I decided to learn <b>ASP.NET</b> in my spare time and have made <b>a few websites</b> which you can find bellow. I ended up really enjoying backend development, and picked up frontend web development along the way</p>
 			<p>Throughout my career, I wish to learn more web frameworks like <b>NodeJS, ReactJS, Vue, and others</b> that have always caught my interest, but never had the time to learn them.</p>
-		</div>	
-		<div class="mb-sm-5" id="my-portfolio">
-			<h2>My Portfolio</h2>
-			<p>[Hover or tap to highlight]</p>
+		</div>
+		<div class="mb-sm-5">
+			<h2 id="my-portfolio">My Portfolio</h2>
+			<p class="sub">[Hover or tap to highlight]</p>
 			<div class="mb-sm-4 p-3 bg-blue">
 				<h3>E.TEAM Codes</h2>
 				<p>A friend came up to me and asked if I could build him a website, so I agreed. The website is simple, users enter a 6-digit code they find inside one of my friends comic's and they take you to even more comics. You can use the code 123456 as an example. <b>The source code is unavailable until I fix a security issue</b></b></p>
@@ -80,12 +81,12 @@
 				<h3>My Portfolio (this)</h2>
 				<p>I'll be honest, I'm not a good font-end developer. However, if at any point I need to do front-end development, I'm not ill prepared. I will in the future port this website to AngularJS or ReactJS as those frameworks look exciting</p>
 				<div class="btn-group btn-toolbar">
-					<button class="btn btn-outline-warning">Source Code (inspect element)</button>
+					<button class="btn btn-outline-warning">Source Code</button>
 				</div>
 			</div>
 		</div>
-		<div class="mb-sm-4">
-			<h2 id="contact-me">Contact Me</h2>
+		<div id="contact-me" class="mb-sm-4">
+			<h2>Contact Me</h2>
 			<p>If you wish to contact me, you can find my details bellow!</p>
 			<ul>
 				<li><a class="link-warning" href="mailto:jedsaxon@outlook.com">jedsaxon@outlook.com</a></li>
@@ -110,7 +111,7 @@
 		  	</div>
 		</div>
 	</div>
-	
+
 	<script>
 		const imageModal = document.getElementById('image-modal');
 		imageModal.addEventListener('show.bs.modal', event => {
